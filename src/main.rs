@@ -26,7 +26,7 @@ impl Sizes {
                 megabytes: units as f64 * 1000.0,
                 gigabytes: units as f64,
             },
-             _ => panic!("Unknown unit type"),
+            _ => panic!("Unknown unit type"),
         }
     }
 
