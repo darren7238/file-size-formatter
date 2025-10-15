@@ -75,7 +75,7 @@ fn main() {
                     println!("units: {}, unit_type: {}", units, unit_type);
                     let unit_type = unit_type.to_lowercase();
                     let sizes = Sizes::convert(units, &unit_type).format();
-                    println!("{:?}", sizes)
+                    println!("{}", sizes)
                 }                   
                 Err(_) => println!("Error: units '{}' is not a valid number", units),
             }
