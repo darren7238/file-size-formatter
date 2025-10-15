@@ -1,6 +1,6 @@
-# file-size-formatter (hello world)
+# file-size-formatter
 
-Minimal Rust project added to workspace for a "Hello, world!" example.
+File size formatter project.
 
 Try it (Windows PowerShell):
 
